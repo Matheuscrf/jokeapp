@@ -1,0 +1,7 @@
+{
+  "name": "jokeapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
