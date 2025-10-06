@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Piadas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-card>
+    <ion-card-header>
+  <ion-card-title>{{ question }}</ion-card-title>
+    </ion-card-header>
+  <ion-card-content> {{ response }} </ion-card-content>
+  </ion-card>
+
+  <ion-button expand="block" (click)="getJoke()">Nova Piada</ion-button>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-buttons class="footer-buttons">
+      <ion-button expand="block" routerLink="/home"> Home </ion-button>
+      <ion-button expand="block" routerLink="/about"> About </ion-button>
+      <ion-button expand="block" routerLink="/jokes"> Jokers </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>
